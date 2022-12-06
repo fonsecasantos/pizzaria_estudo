@@ -16,3 +16,22 @@
     }
 
 }
+
+/* Animações do Subtítulo */
+
+@keyframes HeaderH4moverParaEsquerda {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    50% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}

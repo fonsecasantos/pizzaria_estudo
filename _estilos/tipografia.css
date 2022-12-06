@@ -82,12 +82,19 @@ header div#chamada h1 {
 
     animation-name: HeaderH1moverParaDireita;
     animation-duration: 2.2s;
+    animation-timing-function: ease-out;
 }
 
 header div#chamada h4 {
     font-size: 250%;
     text-shadow: 4px 6px 10px #000;
     margin-bottom: 55px;
+
+    animation-name: HeaderH4moverParaEsquerda;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
 }
 
 header div#chamada a {
