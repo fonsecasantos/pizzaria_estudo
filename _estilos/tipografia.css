@@ -105,6 +105,14 @@ header div#chamada a {
     padding: 20px 80px;
     border-radius: 50px;
     font-weight: 600;
+
+    display: inline-block;
+
+    animation-name: HeaderAmoverParaCima;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
 }
 
 /*------------------------*/
