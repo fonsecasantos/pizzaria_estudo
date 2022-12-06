@@ -79,6 +79,9 @@ p.destaque {
 header div#chamada h1 {
     color: #fff;
     text-shadow: 4px 6px 10px #000;
+
+    animation-name: HeaderH1moverParaDireita;
+    animation-duration: 2.2s;
 }
 
 header div#chamada h4 {
