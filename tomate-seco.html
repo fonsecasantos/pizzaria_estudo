@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pizzaria Fontenelle</title>
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css "  rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"   rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:wght@300;400;600&family=Pacifico&display=swap" rel="stylesheet">
+        
+        <link href="_estilos/animacao.css"      rel="stylesheet"/>
+        <link href="_estilos/layout.css"        rel="stylesheet"/>
+        <link href="_estilos/tipografia.css"    rel="stylesheet"/>
+
+        <style>
+            header {
+                position: relative;
+                background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0)), url(../imagens-pizzas/pizza5.jpg);
+                background-size: cover;
+                background-position: center center;
+
+                width: 100%;
+                height: 100vh;
+
+                border-top:5px solid #078C31;
+
+                clip-path: polygon(0 0, 100% 0, 100% 97%, 0 100%);
+            }        
+        </style>
+        <link href="_estilos/layout-tablet.css" rel="stylesheet" media="screen and (max-width:1024px)">
+        <link href="_estilos/layout-mobile.css" rel="stylesheet" media="screen and (max-width:812px)">         
+
+        <!-- Facebook Pixel Code -->
+        <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '223493762803283');
+        fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=490663995280174&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Facebook Pixel Code -->    
+    
+    </head>
+    <body>
+        <nav>
+            <div></div>
+            <ul id="esquerda">
+                <li><a href="#">DOMINGO PERFEITO</a></li>
+                <li><a href="#">PIZZA</a></li>
+                <li><a href="#">DEPOIMENTOS</a></li>
+                <li><a href="#">PLANOS</a></li>
+            </ul>
+
+            <ul id="icone-menu-mobile">
+                <li><ion-icon name="menu-outline"></ion-icon></li>
+            </ul>
+
+            <ul id="direita">
+                <li><a id="criar-conta" href="#">CRIAR CONTA</a></li>
+                <li><ion-icon name="person-circle-outline"></ion-icon></li>
+            </ul>
+        </nav>        
+        <header>
+            <div id="chamada">
+                <h1>TOMATE SECO</h1>
+                <h4>Massa alta, tomate seco</h4>
+                <a href="#">COMPRAR R$ 120,00</a>
+            </div>
+        </header>
+
+
+        <div id="transicao-testemunha-plano">
+            <div id="decoracao1"></div>
+            <div id="decoracao2"></div>
+            <div id="decoracao3"></div>
+        </div>
+
+        <section id="plano-principal">
+            <h2>ESCOLHA SEU PLANO</h2>
+
+            <div id="planos-janela">
+                <div class="planos">
+                    <div class="planos-top">
+                        <h4>Plano Ouro</h4>
+                        <p><strong>2 vezes por mês</strong></p>
+                        <ul>
+                            <li>2 pizzas G a sua escolha.</li>
+                            <li>2 Refrigerantes 2L.</li>
+                            <li>Entrega grátis.</li>
+                            <li>Você escolhe os dias e horários.</li>
+                        </ul>
+                        <p><strong>R$ 50,00</strong></p>
+                    </div>
+                    <div class="planos-bottom">
+                        <p>QUERO ASSINAR</p> 
+                    </div>
+                </div>
+                <div class="planos">
+                    <div class="planos-top">
+                        <h4>Plano Planinium</h4>
+                        <p>3 vezes por mês</p> 
+                        <ul>
+                            <li>3 pizzas G a sua escolha.</li>
+                            <li>3 Refrigerantes 2L.</li>
+                            <li>Entrega grátis.</li>
+                            <li>Você escolhe os dias e horários.</li>
+                        </ul>    
+                        <p><strong>R$ 70,00</strong></p>  
+                    </div>
+                    <div class="planos-bottom">
+                        <p>QUERO ASSINAR</p>  
+                    </div>
+                </div>
+                <div class="planos">
+                    <div class="planos-top">
+                        <h4>Plano Black</h4>
+                        <p>4 vezes por mês</p>  
+                        <ul>
+                            <li>4 pizzas G a sua escolha.</li>
+                            <li>4 Refrigerantes 2L.</li>
+                            <li>1 surpresa por mês</li>
+                            <li>Entrega grátis.</li>
+                            <li>Você escolhe os dias e horários.</li>
+                        </ul>   
+                        <p><strong>R$ 120,00</strong></p>  
+                    </div>
+                    <div class="planos-bottom">
+                        <p>QUERO ASSINAR</p> 
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <div id="transicao-plano-rodape"></div>
+
+        <footer>
+            <div id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14628.714377196715!2d-46.65556436187386!3d-23.562028404919644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59b756463d61%3A0x9f3d1e6f7f40964!2sBela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1603630855166!5m2!1spt-BR!2sus"  style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>    
+            </div>
+            <div id="info">
+                <h4>Endereço e Telefone</h4>
+                <ul>
+                    <li>RUA CRISTOVÃO COLOMBO, 100</li>
+                    <li>SÃO PAULO-SP</li>
+                    <li>CEP:01.150</li>
+                    <li>Fone: (11) 99876-5432</li>
+                </ul>
+
+                <div id="redes-sociais">
+                    <ion-icon id="facebook" name="logo-facebook"></ion-icon>
+                    <ion-icon id="instagram" name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                    <ion-icon name="logo-youtube"></ion-icon>
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </div>
+            </div>
+            <div id="pizza-rodape-decoracao"></div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/sticky.min.js" integrity="sha512-O5YCLUxCY2OBc4rfpnKUIgE4LGuCiW8CrJ7ty4hvkBAAKUOnlbomEFWd3a6ruRnFvO3LG2wiaGiJ1heOvdppvA==" crossorigin="anonymous"></script>       
+
+        <script src="_scripts/script.js"></script>
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    </body>
+</html>
