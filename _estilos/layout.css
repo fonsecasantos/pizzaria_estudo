@@ -95,6 +95,11 @@ nav ul#esquerda {
     float: left;    
 }
 
+nav ul#icone-menu-mobile {
+    float: right;
+    display: none;
+}
+
 nav ul#direita {
     float: right;
 }
@@ -258,7 +263,7 @@ div#domingo-perfeito-centro {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 }
 
