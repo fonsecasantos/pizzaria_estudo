@@ -98,6 +98,7 @@ nav ul#esquerda {
 nav ul#icone-menu-mobile {
     float: right;
     display: none;
+    margin-top: 40px;
 }
 
 nav ul#direita {

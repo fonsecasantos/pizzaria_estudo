@@ -161,6 +161,7 @@ $('header h1').waypoint( function(direcao) {
         $('nav ion-icon').addClass('iconeEstatico');
         $('nav ul#icone-menu-mobile ion-icon').css('color', '#404040');
         $('nav ul#icone-menu-mobile').css('margin-top', '5px');
+        $('nav ul#icone-menu-mobile').css('margin-right', '-20px');
     } else {
         $('nav').removeClass('navEstatico');
         $('nav div').removeClass('logoEstatico');
@@ -169,6 +170,7 @@ $('header h1').waypoint( function(direcao) {
         $('nav ion-icon').removeClass('iconeEstatico');
         $('nav ul#icone-menu-mobile ion-icon').css('color', 'white');
         $('nav ul#icone-menu-mobile').css('margin-top', '70px');
+        $('nav ul#icone-menu-mobile').css('margin-right', '20px');
     }
 }, {
     offset:'200px;'
