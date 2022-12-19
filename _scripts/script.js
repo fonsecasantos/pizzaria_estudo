@@ -161,11 +161,7 @@ $('header h1').waypoint( function(direcao) {
         $('nav ion-icon').addClass('iconeEstatico');
         $('nav ul#icone-menu-mobile ion-icon').css('color', '#404040');
         $('nav ul#icone-menu-mobile').css('margin-top', '5px');
-<<<<<<< HEAD
         $('nav ul#icone-menu-mobile').css('margin-right', '-20px');
-=======
-        $('nav ul#icone-menu-mobile').css('margin-right', '-20px');        
->>>>>>> previa_pizza
     } else {
         $('nav').removeClass('navEstatico');
         $('nav div').removeClass('logoEstatico');
